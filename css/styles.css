@@ -13,4 +13,34 @@ body {
   place-items: center;
 }
 
+.product {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.product__category {
+  color: hsl(228, 12%, 48%);
+}
+
+.product__title {
+  font-family: "Fraunces", serif;
+}
+
+.product__description {
+  color: hsl(228, 12%, 48%);
+}
+
+.product__price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.product__price-old {
+  color: hsl(228, 12%, 48%);
+}
+
+.product__button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+}
+
 /*# sourceMappingURL=styles.css.map */

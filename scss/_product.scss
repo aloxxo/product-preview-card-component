@@ -1,0 +1,33 @@
+@use 'variables';
+
+
+.product {
+    background-color: variables.$white;
+}
+
+.product__category {
+    color: variables.$grey;
+}
+
+.product__title {
+    font-family: variables.$font-secondary;
+}
+
+.product__description {
+    color: variables.$grey;
+}
+
+.product__price {
+    font-family: variables.$font-secondary;
+    color: variables.$green-500;
+}
+
+.product__price-old {
+    color: variables.$grey;
+}
+
+.product__button {
+    background-color: variables.$green-500;
+    color: variables.$white;
+}
+
