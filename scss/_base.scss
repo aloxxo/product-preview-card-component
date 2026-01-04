@@ -1,0 +1,18 @@
+@use 'variables';
+
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+    font-family: variables.$font-primary;
+    background-color: variables.$cream;
+
+    display: grid;
+    place-items: center;
+}
